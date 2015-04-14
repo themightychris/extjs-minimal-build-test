@@ -1,7 +1,7 @@
 Ext.define('MyApp.MyClass', {
 	singleton: true,
 	requires: [
-		'Ext.XTemplate'
+		'Ext.Ajax'
 	],
 
     sayHello: function() {
