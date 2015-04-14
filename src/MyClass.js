@@ -1,5 +1,5 @@
 Ext.define('MyApp.MyClass', {
-	singleton: true,
+    singleton: true,
 
     sayHello: function() {
         alert('hello');
