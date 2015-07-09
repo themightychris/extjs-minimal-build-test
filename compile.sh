@@ -1,7 +1,9 @@
 #!/bin/bash
 
+: ${EXT_SDK_DIR:?"Run first: export EXT_SDK_DIR=/path/to/sdk"}
+
 sencha \
-	-sdk /sdk/ext-6.0.0-preview \
+	-sdk $EXT_SDK_DIR \
     compile \
         -classpath=./src \
         -options=debug:false \
