@@ -7,6 +7,9 @@ sencha \
     config \
         -prop build.id=classic \
         -prop build.name=classic \
+        -prop build.toolkit=classic \
+        -prop app.toolkit=classic \
+        -prop toolkit=classic \
     then compile \
         -classpath=./src \
         -options=debug:false \
