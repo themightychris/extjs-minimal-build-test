@@ -4,7 +4,10 @@
 
 sencha \
 	-sdk $EXT_SDK_DIR \
-    compile \
+    config \
+        -prop build.id=classic \
+        -prop build.name=classic \
+    then compile \
         -classpath=./src \
         -options=debug:false \
         union -r -c MyApp.MyClass \
