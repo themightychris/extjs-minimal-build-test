@@ -5,7 +5,7 @@
 sencha \
 	-sdk $EXT_SDK_DIR \
     compile \
-        -classpath=./src \
+        -classpath=./src,$EXT_SDK_DIR/packages/core/src,$EXT_SDK_DIR/packages/core/overrides \
         -options=debug:false \
         union -r -c MyApp.MyClass \
         and concat ./build/minimal.js \
