@@ -10,6 +10,10 @@
 ## Goal
 Each branch should result in a `.min.js` file that can be loaded standalone on a page without any errors while being as small as possible (i.e. not including have the widget library)
 
+## See Also
+- [Discussion on Sencha forum](https://www.sencha.com/forum/showthread.php?300077)
+- Issue in Sencha bug tracker: **SDKTOOLS-1212**
+
 
 ## Current Results
 ### ext-6.0.0.640-gpl + cmd-6.0.0.202 w/ manual classpath
